@@ -1,0 +1,146 @@
+
+
+p {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		padding: 20px;
+
+}
+
+.Site {
+	background-color: #8c97aa;
+	width: 960px;
+	display: flex;
+  	flex-direction: column;
+}
+
+.Site-content {
+  flex: 1 0 auto;
+}
+
+/*
+css for a hyperlink
+*/
+.links a {
+			font-family: Georgia,serif;
+			font-size:large;
+			color: #353638;
+}
+
+.links a:link {
+				text-decoration: none;
+}
+
+.links a:visited {
+				color:#353638;
+}
+
+.links a:hover {
+				text-decoration: none;
+				color: #f4f6f9;
+				font-weight: bold;
+}
+.links a:active {
+	color:red;
+	text-decoration: none;
+}
+
+
+
+
+.PrimarySection {
+	float: left;
+	background-color: white;
+	height: 400px;
+	width: 650px;
+}
+
+.PrimarySection::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.sidebar {
+float: right;
+right: 20px;
+width: 270px;
+background-color: white;
+}
+
+.sidebar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.thumbnail {
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.header {
+	height: 70px;
+}
+
+
+.links {
+	height: 50px;
+	width: 270px;
+	float: right;
+	text-align: center;
+}
+.links::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#title {
+	float: left;
+	background-color: #4286f4;
+	color: #f4f6f9;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#title::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#ProfPic {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#head2 {
+	background-color:  #f4f6f9;
+	color: #4286f4;
+	padding: 5px;
+}
+
+#headsidebar {
+	background-color:  #f4f6f9;
+	color: #4286f4;
+	font-size: x-large;
+	padding: 5px;
+
+}
+
+#footer {
+ font-family: Verdana, Geneva, sans-serif;
+ font-size: 0.6em;
+ text-align: center;
+ color: #FFF;
+ background-color: #666;
+ padding: 10px;
+ margin: 15px;
+ height: auto;
+ width: 100%;
+}
+
+
