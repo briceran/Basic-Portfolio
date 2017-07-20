@@ -6,6 +6,28 @@ p {
 
 }
 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.projectnail {
+	width: 100px;
+	height: 100px;
+
+}
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 110px;
+    margin: 10px;
+    border: 3px solid #4286f4;  
+}
+
 .Site {
 	background-color: #8c97aa;
 	width: 960px;
@@ -44,8 +66,26 @@ css for a hyperlink
 	text-decoration: none;
 }
 
+.button {
+    background-color: #4286f4;
+    border: none;
+    color: #f4f6f9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
 
+}
 
+.box {
+	/*width: 100px;
+	height: 200px;*/
+	margin: 20px;
+}
 
 .PrimarySection {
 	float: left;
